@@ -1,0 +1,43 @@
+name: mychat
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^0.4.4+3
+  firebase_auth: ^0.16.0
+  rxdart: ^0.24.0
+  flutter_page_transition: ^0.1.6
+  provider: ^4.0.4
+  localstorage: ^3.0.0
+  rounded_loading_button: ^1.0.4
+  cloud_firestore: ^0.13.5
+  intl: ^0.16.0
+  sprintf: ^4.0.2
+  circular_profile_avatar: ^1.0.6
+  flutter_spinkit: "^4.1.2"
+  bubble: ^1.1.9+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/gif/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
